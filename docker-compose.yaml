@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  todo-list:
+    build: ./todo-list
+    container_name: todo_list
+    ports:
+      - '3000:3000'
+    tty: true
+
+      
